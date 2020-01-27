@@ -83,6 +83,14 @@ hr {
   margin-left: 2rem;
 }
 
+.mob {
+  color: #003f5c;
+}
+
+.mob:hover {
+  color: #46b5d1;
+}
+
 .button {
   background-color: #003f5c;
   color: white;
