@@ -1,4 +1,5 @@
 body {
+  background-color: #bbcfff;
   color: #40514E;
   margin: 0;
   text-align: center;
@@ -10,7 +11,6 @@ p {
   text-align: center;
   font-family: 'News+Cycle', sans-serif;
   line-height: 2;
-  height: auto;
 
 }
 
@@ -40,19 +40,20 @@ a:hover {
 
 hr {
   width: 5%;
-  border: dotted #EAF6F6 0.3rem;
+  border: none;
   border-bottom: none;
   margin: 6.25rem auto;
 }
 
 .divtop {
   background-color: #1089ff;
-  padding: 2rem 0 1rem 0;
+  padding: 2rem 0 2rem 0;
   position: relative;
 }
 
 .divmiddle {
-  margin: 6.25rem 0;
+  background-color: #f0efef;
+  padding-top: 1rem;
 }
 
 .work {
@@ -70,6 +71,7 @@ hr {
   width: 40%;
   float: left;
   margin-right: 2rem;
+  transition-duration: 3s;
 }
 
 .imgkitchen {
@@ -81,13 +83,16 @@ hr {
   width: 35%;
   float: right;
   margin-left: 2rem;
+  transition-duration: 3s;
 }
 
 .mob {
+  font-size: 1.5rem;
   color: #333333;
 }
 
 .mob:hover {
+  font-size: 1.5rem;
   color: #46b5d1;
 }
 
@@ -96,6 +101,7 @@ hr {
   color: white;
   padding: 1rem 0.5rem;
   margin-bottom: 2rem;
+  font-size: 1rem;
 }
 
 .button:hover {
@@ -110,13 +116,39 @@ hr {
   color: #003f5c;
 }
 
+.gall {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 1rem 0.5rem;
+  margin: 1rem auto;
+  font-size: 1.5rem;
+}
+
+.gall:hover {
+  color: #1089ff;
+  font-size: 1.5rem;
+}
+
+
+.fb {
+  color: #333333;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 1rem 0.5rem;
+  margin: 1rem auto;
+}
+
+.fb:hover {
+  color: #EAF6F6;
+}
+
 .footer {
   background-color: #1089ff;
   color: #EAF6F6;
   height: 8rem;
   line-height: 2;
   padding: 2rem 0 2rem 0;
-  margin: 0;
 
 }
 
@@ -127,4 +159,53 @@ hr {
 .copyright {
   color: #46b5d1;
   font-size: 0.75rem;
+}
+
+.divtop1 {
+  background-image: url('../images/polica.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 4rem;
+}
+
+.aboutus {
+  color: white;
+}
+
+.about {
+  color: white;
+  width: 40%;
+  margin: 2.5rem auto;
+}
+
+
+#table {
+  width: 30%;
+  margin: 0 35% 0 35%;
+  color: black;
+}
+
+.top {
+
+  background-color: #bbcfff;
+  padding: 1rem 0;
+}
+
+.imgleft {
+  display: block;
+  float: left;
+  margin-left: 0;
+  width: 50%;
+}
+
+.imgright {
+  display: block;
+ margin-right: 0;
+ margin-left: 90%;
+ width: 50%;
+}
+
+.img1 {
+  width: 71%;
 }
