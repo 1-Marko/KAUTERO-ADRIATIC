@@ -1,9 +1,10 @@
-body {
-  background-color: #bbcfff;
+body, html {
+
   color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Lato', sans-serif;
+  height: 100%;
 }
 
 p {
@@ -135,21 +136,22 @@ hr {
   color: #333333;
   font-weight: bold;
   text-decoration: none;
-  padding: 1rem 0.5rem;
+  padding: 1rem 0;
   margin: 1rem auto;
+  font-size: 1.5rem;
 }
 
 .fb:hover {
-  color: #EAF6F6;
+  color: white;
+    margin: 1rem auto;
 }
 
 .footer {
   background-color: #1089ff;
   color: #EAF6F6;
-  height: 8rem;
+  height: 7rem;
   line-height: 2;
-  padding: 2rem 0 2rem 0;
-
+  padding: 1rem 0 2.3rem 0;
 }
 
 .pfoot {
@@ -161,12 +163,12 @@ hr {
   font-size: 0.75rem;
 }
 
-.divtop1 {
+.onama {
   background-image: url('../images/polica.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 4rem;
+  height: 100%;
 }
 
 .aboutus {
@@ -187,7 +189,7 @@ hr {
 }
 
 .top {
-
+  text-align: center;
   background-color: #bbcfff;
   padding: 1rem 0;
 }
@@ -196,16 +198,17 @@ hr {
   display: block;
   float: left;
   margin-left: 0;
-  width: 50%;
+  width: 40%;
 }
 
 .imgright {
   display: block;
  margin-right: 0;
  margin-left: 90%;
- width: 50%;
+ width: 40%;
 }
 
 .img1 {
   width: 71%;
+  margin: 0;
 }
