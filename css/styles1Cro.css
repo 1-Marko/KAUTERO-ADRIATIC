@@ -1,0 +1,214 @@
+body, html {
+
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  height: 100%;
+}
+
+p {
+  color: #40514E;
+  text-align: center;
+  font-family: 'News+Cycle', sans-serif;
+  line-height: 2;
+
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 3rem auto 0 auto;
+  font-family: 'Saira+Condensed&display=swap', sans-serif;
+  color: #333333;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: 'Saira+Condensed&display=swap', sans-serif;
+  color: #333333;
+}
+
+a {
+  color: #333333;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 1rem 0.5rem;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  width: 5%;
+  border: none;
+  border-bottom: none;
+  margin: 6.25rem auto;
+}
+
+.divtop {
+  background-color: #1089ff;
+  padding: 2rem 0 2rem 0;
+  position: relative;
+}
+
+.divmiddle {
+  background-color: #f0efef;
+  padding-top: 1rem;
+}
+
+.work {
+  width: 50%;
+  margin: 6.25rem auto;
+  text-align: left;
+}
+
+.imgshelf {
+  width: 25%;
+  float: left;
+  margin-right: 2rem;
+}
+.imgshelf:hover {
+  width: 40%;
+  float: left;
+  margin-right: 2rem;
+  transition-duration: 3s;
+}
+
+.imgkitchen {
+  width: 25%;
+  float: right;
+  margin-left: 2rem;
+}
+.imgkitchen:hover {
+  width: 35%;
+  float: right;
+  margin-left: 2rem;
+  transition-duration: 3s;
+}
+
+.mob {
+  font-size: 1.5rem;
+  color: #333333;
+}
+
+.mob:hover {
+  font-size: 1.5rem;
+  color: #46b5d1;
+}
+
+.button {
+  background-color: #003f5c;
+  color: white;
+  padding: 1rem 0.5rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.button:hover {
+  background-color: #e1f4f3;
+}
+
+.mail {
+  color: #e1f4f3;
+}
+
+.mail:hover {
+  color: #003f5c;
+}
+
+.gall {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 1rem 0.5rem;
+  margin: 1rem auto;
+  font-size: 1.5rem;
+}
+
+.gall:hover {
+  color: #1089ff;
+  font-size: 1.5rem;
+}
+
+
+.fb {
+  color: #333333;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 1rem 0;
+  margin: 1rem auto;
+  font-size: 1.5rem;
+}
+
+.fb:hover {
+  color: white;
+    margin: 1rem auto;
+}
+
+.footer {
+  background-color: #1089ff;
+  color: #EAF6F6;
+  height: 7rem;
+  line-height: 2;
+  padding: 1rem 0 2.3rem 0;
+}
+
+.pfoot {
+  color: #e1f4f3;
+}
+
+.copyright {
+  color: #46b5d1;
+  font-size: 0.75rem;
+}
+
+.onama {
+  background-image: url('../images/polica.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.aboutus {
+  color: white;
+}
+
+.about {
+  color: white;
+  width: 40%;
+  margin: 2.5rem auto;
+}
+
+
+#table {
+  width: 30%;
+  margin: 0 35% 0 35%;
+  color: black;
+}
+
+.top {
+  text-align: center;
+  background-color: #bbcfff;
+  padding: 1rem 0;
+}
+
+.imgleft {
+  display: block;
+  float: left;
+  margin-left: 0;
+  width: 40%;
+}
+
+.imgright {
+  display: block;
+ margin-right: 0;
+ margin-left: 90%;
+ width: 40%;
+}
+
+.img1 {
+  width: 71%;
+  margin: 0;
+}
