@@ -110,6 +110,8 @@ p {
   color: #1089ff;
 }
 
+/* Youtube / Partners
+
 .youtube {
   color: #fff;
 }
@@ -117,6 +119,17 @@ p {
 .youtube:hover {
   color: #000;
 }
+
+#partners {
+  padding-bottom: 3%;
+}
+
+.partners-logo {
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+*/
 
 /* Gallery */
 
@@ -134,15 +147,6 @@ p {
   border-radius: 100%;
 }
 
-
-#partners {
-  padding-bottom: 3%;
-}
-
-.partners-logo {
-  width: 15%;
-  padding: 20px 20px 50px;
-}
 
 #products {
   padding: 100px;
